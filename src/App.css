@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 20vh;
+  /* 40vh? */
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#square-space{
+  height: 70vh;
+  width: 100vw;
+}
+
+#square-space > div{
+  display: inline-block;
+  height: 49%;
+  width: 49%;
+  vertical-align: bottom;
+}
+
+#square-space > div:nth-child(-n+2){
+  border-bottom: black solid 1px;
+}
+
+#square-space > div:nth-child(n+3){
+  border-top: black solid 1px;
+}
+
+#square-space > div:nth-child(odd){
+  border-right: black solid 1px;
+}
+
+#square-space > div:nth-child(even){
+  border-left: black solid 1px;
+}
+
+#big-square {
+  height: 70vh;
+}
+
+#big-square *{
+  font-size: 14pt;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

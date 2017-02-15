@@ -1,18 +1,32 @@
 import React, { Component } from 'react';
+import './BigSquare.css';
+
 
 class BigSquare extends Component {
 
-render(){
-  return(
-    <div>
-      <h1>{this.props.bigContent}</h1>
-      <button onClick={this.props.close}>Close</button>
-    </div>
+  componentWillMount(){
+     document.addEventListener("keydown", this.handleKeyDown.bind(this), {once:true});
+   }
 
-    )
-}
+  handleKeyDown(e){
+    console.log('test')
+    if (e.keyCode === 27){
+      this.props.close()
+    }
+  }
+
+  render(){
+    return(
+      <div>
+
+        {this.props.bigContent}
+        <button onClick={this.props.close}>X</button>
+      </div>
+
+      )
+  }
 
 
- }
+   }
 
-export default BigSquare
+  export default BigSquare

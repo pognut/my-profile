@@ -4,6 +4,7 @@ import './App.css';
 import BigSquare from './BigSquare.js'
 import SmallSquare from './SmallSquare.js'
 import content from "./content"
+import headshot from './headshot.jpg'
 
 class App extends Component {
 
@@ -33,7 +34,7 @@ class App extends Component {
       return (
         <div className="App">
           <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={headshot} className="App-logo" alt="logo" />
             <h2>Nick Michel: Web Developer</h2>
           </div>
           <div id="square-space">
@@ -49,7 +50,7 @@ class App extends Component {
       return(
          <div className="App">
           <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
+            <img src={headshot} className="App-logo" alt="logo" />
             <h2>Nick Michel: Web Developer</h2>
           </div>
         <div id="big-square">

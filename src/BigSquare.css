@@ -1,0 +1,18 @@
+button {
+  display: inline;
+  background: white;
+  border: none;
+}
+
+#big-square h2 {
+  display: inline;
+  margin: 0 auto;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}

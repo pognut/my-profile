@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 // To do:
-// 1) complete all big content (write about paragraph, rearrange skills lists, write project explanations, contact form(?))
-// 2) design front page
-// 3) design big squares
+// 1) refine content (big contact, small about, small projects)
+// 2) get mom's help with header design
+// 3) clean up text (better font, spacing etc)
 // 4) ask eric about site
 // 5) square expansion on hover?
 // 6) resume display/download

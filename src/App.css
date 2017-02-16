@@ -24,7 +24,7 @@
   width: 100vw;
 }
 
-#square-space > div{
+#square-space > .square{
   display: inline-block;
   /* height: 49%; */
   width: 49%;
@@ -49,6 +49,10 @@
 
 #big-square {
   height: 70vh;
+  padding: 20px;
+  overflow: scroll;
+  background-color: #626;
+  color: white;
 }
 
 #big-square *{

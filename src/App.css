@@ -3,17 +3,41 @@
   height: 100vh;
 }
 
+.root {
+  height: 100vh;
+}
+
 .App-logo {
-  height: 100px;
+  height: 65vh;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#tagline{
+  /* height: 15vh; */
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 26pt;
+  margin: 0;
 }
 
 .App-header {
-  background-color: #626;
-  height: 70vh;
+  background-color: #656;
+  height: 80vh;
   /* 40vh? */
-  padding: 20px;
-  color: white;
+  /* padding: 20px; */
+  position: relative;
 }
+
+.App-header * {
+  display: inline-block;
+}
+
+
 
 .App-intro {
   font-size: large;
@@ -26,9 +50,11 @@
 
 #square-space > .square{
   display: inline-block;
-  /* height: 49%; */
-  width: 49%;
+  height: 10%;
+  width: 49.9%;
   vertical-align: bottom;
+  background-color: #666;
+
 }
 
 #square-space > .square:nth-child(-n+2){
@@ -48,11 +74,10 @@
 }
 
 #big-square {
-  height: 70vh;
-  padding: 20px;
+  height: 80vh;
+  /* padding: 20px; */
   overflow: scroll;
-  background-color: #626;
-  color: white;
+  background-color: #656;
 }
 
 #big-square *{

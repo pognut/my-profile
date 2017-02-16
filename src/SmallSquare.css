@@ -1,7 +1,11 @@
 /* #about-blurb {
   width: 95%;
-}
+} */
 
 li {
   list-style: none;
-} */
+}
+
+ul {
+  padding-left: 0;
+}

@@ -6,33 +6,26 @@ import React, { Component } from 'react';
 // 3) clean up text (better font, spacing etc)
 // 4) ask eric about site
 // 5) square expansion on hover?
-// 6) resume display/download
+// 6) resume display/download (in about me)
+
+// headers all caps
+// center headers
+// remove all small square content except headers
+// try centered picture with header surrounding
+
 
 var smallAbout=[
-  <h2>About me</h2>,
-  <p id="about-blurb">I am a rising full stack web developer with a thirst for knowledge and a hunger for experience. Read on to witness my many skills and sparkling personality.</p>
+  <h2>ABOUT ME</h2>
 ]
 
 var smallSkills=[
-<h2>Skills to pay the bills</h2>,
-<ul>
-  <li>HTML, CSS, JS (The basics)</li>
-  <li>NodeJS, ExpressJS, ReactJS (The many children of Javascript)</li>
-  <li>Ruby, Ruby on Rails (I love Rails)</li>
-</ul>
-
+<h2>SKILLS TO PAY THE BILLS</h2>
 ]
 
-var smallProjects=[<h2>Past Projects</h2>,
-<div><iframe src=""></iframe><iframe src="http://www.beehavenbees.com"></iframe></div>]
+var smallProjects=[<h2>PAST PROJECTS</h2>]
 
 var smallContact=[
-<h2>Give me a buzz</h2>,
-<div>
-<h4>By email: <a href="mailto:nickmichel100@gmail.com">nickmichel100@gmail.com</a></h4>
-<h4>Or phone: 561-596-0368</h4>
-<h4>Or <a href="https://www.linkedin.com/in/nicholas-michel/">LinkedIn</a></h4>
-</div>
+<h2>GIVE ME A BUZZ</h2>
 ]
 
 var bigAbout=[
@@ -67,6 +60,7 @@ var bigSkills=[
   <li>Spanish and Chinese (proficient)</li>
   <li>Python</li>
 </ul>,
+<h3>What I Want to Learn</h3>,
 <ul id="want-to-learn">
   <li>Everything else!</li>
 </ul>

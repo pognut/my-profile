@@ -6,7 +6,7 @@ class SmallSquare extends Component {
 
 render(){
   return(
-    <div onClick={(e)=> this.props.fullscreen(this.props.squareNum)}>
+    <div className="square" onClick={(e)=> this.props.fullscreen(this.props.squareNum)}>
       {this.props.smallContent}
     </div>
 

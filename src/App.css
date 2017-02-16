@@ -9,7 +9,7 @@
 
 .App-header {
   background-color: #626;
-  height: 20vh;
+  height: 70vh;
   /* 40vh? */
   padding: 20px;
   color: white;
@@ -20,30 +20,30 @@
 }
 
 #square-space{
-  height: 70vh;
+  height: 100vh;
   width: 100vw;
 }
 
 #square-space > div{
   display: inline-block;
-  height: 49%;
+  /* height: 49%; */
   width: 49%;
   vertical-align: bottom;
 }
 
-#square-space > div:nth-child(-n+2){
+#square-space > .square:nth-child(-n+2){
   border-bottom: black solid 1px;
 }
 
-#square-space > div:nth-child(n+3){
+#square-space > .square:nth-child(n+4){
   border-top: black solid 1px;
 }
 
-#square-space > div:nth-child(odd){
+#square-space > .square:nth-child(3n+1){
   border-right: black solid 1px;
 }
 
-#square-space > div:nth-child(even){
+#square-space > .square:nth-child(3n+2){
   border-left: black solid 1px;
 }
 

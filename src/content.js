@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 
 // To do:
-// 1) refine content (big contact, small about, small projects)
-// 3) clean up text (better font, spacing etc)
+// 1) refine content (revise writing, screenshot projects) (last step before usability)
+// 2) clean up css (classes and ids, not child selectors everywhere)
+// 3) DONE clean up text (better font, spacing etc)
 // 4) why you should hire me section (memory line should have joke about never losing trivia night)
-// 5) clean up react so no if statement in return, all content should be loaded through big tile(?)
-// 6) resume display/download (in about me)
+// 5) clean up react so no if statement in return, all content should be loaded through big tile(?), clean up spare files and rename obvious create-react-app files
+// 6) DONE resume display/download (in about me)
+
 
 
 // headers all caps
@@ -84,7 +86,7 @@ var bigProjects=[
 </div>]
 
 var bigContact=[
-<h2>This is the same info as before. Seriously, nothing new.</h2>,
+<h2>Here's how you can get in touch</h2>,
 <div>
 <h4>By email: <a href="mailto:nickmichel100@gmail.com">nickmichel100@gmail.com</a></h4>
 <h4>Or phone: 561-596-0368</h4>

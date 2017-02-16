@@ -41,7 +41,8 @@ class App extends Component {
               <div id="tagline">
               <h2>Nick Michel: Web Developer</h2>
               <h2>For all your coding needs</h2>
-              <a href={resume} download="Nick Michels Resume">Download my resume!</a>
+              <h4>Click a corner to see more me</h4>
+              <a href={resume} download="Nick Michels Resume">Or download my resume!</a>
               </div>
               <img src={picture} className="App-logo" alt="logo" />
             </div>

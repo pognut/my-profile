@@ -1,6 +1,6 @@
 /* button {
   display: inline;
-  background: white;
+  background: none;
   border: none;
 }
 
@@ -15,4 +15,10 @@ ul {
 
 li {
   list-style: none;
-} */
+}
+
+
+
+#big-square * {
+}
+ */

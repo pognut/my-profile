@@ -20,7 +20,7 @@ class BigSquare extends Component {
       <div>
 
         {this.props.bigContent}
-        <button onClick={this.props.close}>X</button>
+        <button onClick={this.props.close}>Back</button>
       </div>
 
       )

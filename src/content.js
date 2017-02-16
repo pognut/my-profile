@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 // To do:
 // 1) refine content (big contact, small about, small projects)
-// 2) get mom's help with header design
 // 3) clean up text (better font, spacing etc)
-// 4) ask eric about site
-// 5) square expansion on hover?
+// 4) why you should hire me section (memory line should have joke about never losing trivia night)
+// 5) clean up react so no if statement in return, all content should be loaded through big tile(?)
 // 6) resume display/download (in about me)
+
 
 // headers all caps
 // center headers

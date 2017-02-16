@@ -37,7 +37,7 @@ class App extends Component {
             <SmallSquare fullscreen={this.fullscreener} id="about" squareNum="0" smallContent={content[0].small} />
             <SmallSquare fullscreen={this.fullscreener} id="skills"squareNum="1" smallContent={content[1].small} />
             <div className="App-header">
-              <h2 id="tagline">Nick Michel: Web Developer</h2>
+              <div id="tagline"><h2>Nick Michel: Web Developer</h2><h2>For all your coding needs</h2></div>
               <img src={headshot} className="App-logo" alt="logo" />
             </div>
             <SmallSquare fullscreen={this.fullscreener} id="projects" squareNum="2" smallContent={content[2].small} />

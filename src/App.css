@@ -21,19 +21,22 @@
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
-  font-size: 26pt;
-  margin: 0;
+  font-size: 22pt;
+}
+
+#tagline * {
+  margin-top: 0;
 }
 
 .App-header {
-  background-color: #656;
+  background-color: #2f4f43;
   height: 80vh;
   /* 40vh? */
   /* padding: 20px; */
   position: relative;
 }
 
-.App-header * {
+.App-header > * {
   display: inline-block;
 }
 
@@ -53,7 +56,7 @@
   height: 10%;
   width: 49.9%;
   vertical-align: bottom;
-  background-color: #666;
+  background-color: #00ffdc;
 
 }
 

@@ -4,7 +4,8 @@ import './App.css';
 import BigSquare from './BigSquare.js'
 import SmallSquare from './SmallSquare.js'
 import content from "./content"
-import headshot from './unnamed.jpg'
+import picture from './unnamed.jpg'
+import resume from './NickMichelResume.docx'
 
 class App extends Component {
 
@@ -40,9 +41,9 @@ class App extends Component {
               <div id="tagline">
               <h2>Nick Michel: Web Developer</h2>
               <h2>For all your coding needs</h2>
-              <a href="/NickMichelResume.docx" download="Nick Michels Resume">Download!</a>
+              <a href={resume} download="Nick Michels Resume">Download my resume!</a>
               </div>
-              <img src={headshot} className="App-logo" alt="logo" />
+              <img src={picture} className="App-logo" alt="logo" />
             </div>
             <SmallSquare fullscreen={this.fullscreener} id="projects" squareNum="2" smallContent={content[2].small} />
             <SmallSquare fullscreen={this.fullscreener} id="contact" squareNum="3" smallContent={content[3].small} />

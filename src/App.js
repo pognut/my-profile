@@ -6,6 +6,8 @@ import SmallSquare from './SmallSquare.js'
 import content from "./content"
 import picture from './unnamed.jpg'
 import resume from './NickMichelResume.docx'
+import tourpic from './tourpic.png'
+import beespic from './beespic.png'
 
 class App extends Component {
 
@@ -42,7 +44,7 @@ class App extends Component {
               <h2>Nick Michel: Web Developer</h2>
               <h2>For all your coding needs</h2>
               <h4>Click a corner to see more me</h4>
-              <a href={resume} download="Nick Michels Resume">Or download my resume!</a>
+              <a href={resume} download="Nick Michel's Resume">Or download my resume!</a>
               </div>
               <img src={picture} className="App-logo" alt="logo" />
             </div>

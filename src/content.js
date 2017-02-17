@@ -54,9 +54,9 @@ var bigSkills=[
 <ul id = "known">
   <li>HTML, CSS, JS (The basics)</li>
 
-  <li>Ruby, Ruby on Rails (I love Rails)</li>
+  <li>Ruby, Ruby on Rails (My favorite)</li>
   <li>Git, Heroku, MySQL/PSQL</li>
-  <li>Sales and Customer Services (me talk good)</li>
+  <li>Sales and Customer Services </li>
 
 </ul>,
 <h3>Skills I'm Practicing</h3>,
@@ -75,13 +75,13 @@ var bigSkills=[
 var bigProjects=[
 <h2>Past Projects</h2>,
 <div>
-  <image src={tourimage}></image>
+  <img src={tourimage} />
   <p>This is Google Tours (name subject to change), my final project at General Assembly, the bootcamp that taught me web development.
   Google Tours was inspired by my time leading walking tours in New York City, and lets users create their own custom tours by applying
   written text blurbs to google street view panoramas. The site is built using a Rails backend, and while the live version front end was
   created with vanilla JavaScript, I'm currently refactoring it to use ReactJS.
   </p>
-  <image src={(beespic)}></image>
+  <img src={require('./beespic.png')}/>
   <p>This is Bee Haven Bees, a beekeeping service based out of Glen Ridge NJ. A relative of mine runs Bee Haven Bees, and asked me to
   help him with a site redesign. (I know you've had this happen to you before, don't lie) Being the kind soul that I am, I helped him out,
   which provided me a wealth of experience with CSS and basic site design. It's not fancy, but it's my first true website and I'm damn proud of it.

@@ -18,7 +18,6 @@ class BigSquare extends Component {
   render(){
     return(
       <div>
-
         {this.props.bigContent}
         <button onClick={this.props.close}>Back</button>
       </div>

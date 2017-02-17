@@ -6,8 +6,6 @@ import SmallSquare from './SmallSquare.js'
 import content from "./content"
 import picture from './unnamed.jpg'
 import resume from './NickMichelResume.docx'
-import tourpic from './tourpic.png'
-import beespic from './beespic.png'
 
 class App extends Component {
 

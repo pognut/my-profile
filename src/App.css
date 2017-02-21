@@ -23,7 +23,7 @@ body * {
   /* height: 15vh; */
   position: absolute;
   top: 50%;
-  left: 25%;
+  left: 30%;
   transform: translate(-50%, -50%);
   font-size: 22pt;
 }

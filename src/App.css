@@ -12,7 +12,7 @@ body * {
 }
 
 .App-logo {
-  height: 65vw;
+  height: 65vmin;
   position: absolute;
   top: 50%;
   left: 75%;
@@ -26,7 +26,7 @@ body * {
   top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
-  font-size: 2vh;
+  font-size: 2vmax;
 }
 
 /* tagline-container, class is tagline? */

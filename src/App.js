@@ -58,14 +58,14 @@ class App extends Component {
         <div className="App">
         <div id="square-space">
           <SmallSquare fullscreen={this.fullscreener} id="about" squareNum="0" smallContent={content[0].small} />
-            <SmallSquare fullscreen={this.fullscreener} id="skills"squareNum="1" smallContent={content[1].small} />
-        <div id="big-square">
-          <BigSquare close={this.exitFullscreen} bigContent={this.state.info}/>
+          <SmallSquare fullscreen={this.fullscreener} id="skills"squareNum="1" smallContent={content[1].small} />
+          <div id="big-square">
+            <BigSquare close={this.exitFullscreen} bigContent={this.state.info}/>
+          </div>
+          <SmallSquare fullscreen={this.fullscreener} id="projects" squareNum="2" smallContent={content[2].small} />
+          <SmallSquare fullscreen={this.fullscreener} id="contact" squareNum="3" smallContent={content[3].small} />
         </div>
-            <SmallSquare fullscreen={this.fullscreener} id="projects" squareNum="2" smallContent={content[2].small} />
-            <SmallSquare fullscreen={this.fullscreener} id="contact" squareNum="3" smallContent={content[3].small} />
-          </div>
-          </div>
+      </div>
         )
     }
   }

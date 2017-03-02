@@ -31,15 +31,14 @@ var smallContact=[
 
 var bigAbout=[
   <h2 className="big-header">About me, in detail</h2>,
-  <p>Hello, I'm Nick! I graduated from Vassar College with a BA in Science and Technology studies. After a number
-  of different sales and customer service jobs, including leading walking tours of New York City, I decided to take
-  the plunge and become a web developer. Six months and a stint as a teaching assistant at my old bootcamp later, here I am,
+  <p>Hello, I'm Nick! I graduated from Vassar College with a BA in Science and Technology studies. After a variety
+  of sales and customer service jobs, I decided to take
+  the plunge and become a web developer. Six months and a stint as a teaching assistant at my bootcamp alma mater later, here I am,
   a fullstack web developer extraordinaire!
   </p>,
   <p>
   I love learning new things and creating new systems, so if I don't have the precise skills you're looking for, give it a month and I will.
-  My past as a sales/customer service rep, along with my outgoing and friendly personality, have given me an exquisite set of people skills
-  as well, perfect for any client facing roles or project management.
+  My outgoing personality and time in the trenches of the sales world make me ideal for client facing roles or project management.
   </p>
 ]
 
@@ -78,9 +77,8 @@ var bigProjects=[
   created with vanilla JavaScript, I'm currently refactoring it to use ReactJS.
   </p>
   <a href="http://www.beehavenbees.com" target="_blank"><img src={beespic}/></a>
-  <p>This is Bee Haven Bees, a beekeeping service based out of Glen Ridge NJ. A relative of mine runs Bee Haven Bees, and asked me to
-  help him with a site redesign. (I know you've had this happen to you before, don't lie) Being the kind soul that I am, I helped him out,
-  which provided me a wealth of experience with CSS and basic site design. It's not fancy, but it's my first true website and I'm damn proud of it.
+  <p>This is Bee Haven Bees, my first production website, which provided me a wealth of experience in CSS and basic site design.
+   I did have help from a professional graphic designer, but the underlying is all mine.
   </p>
 </div>]
 

@@ -19,7 +19,7 @@ class BigSquare extends Component {
     return(
       <div>
         {this.props.bigContent}
-        <button onClick={this.props.close}>Back</button>
+        <button id="back-button" onClick={this.props.close}>BACK</button>
       </div>
 
       )

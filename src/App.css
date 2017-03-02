@@ -27,7 +27,16 @@ body * {
   left: 25%;
   transform: translate(-50%, -50%);
   font-size: 2vmax;
+  color: #ABABAB;
+
 }
+
+a:link {
+  color: #A56717;
+  text-decoration: none;
+}
+
+
 
 /* tagline-container, class is tagline? */
 #tagline * {
@@ -35,14 +44,20 @@ body * {
 }
 
 .App-header {
-  /* background-color: rgb(0, 128, 128); */
-  background-color: #2D873D;
-  /* background-color: #7CEB47; */
+  background-color: #1C1C20;
+  /* background-color: #245FB0; */
+  /* background-color: rgb(0, 128, 153); */
+/*   background-color: #2D873D;
+ */  /* background-color: #7CEB47; */
   height: 70vh;
   /* 40vh? */
   /* padding: 20px; */
   position: relative;
   overflow: scroll;
+/*   background-image: url("board-electronics-computer-data-processing-50711.jpeg");
+  background-size: cover;
+  background-position: 0 50%; */
+  /* background-repeat: no-repeat; */
 
 }
 
@@ -67,12 +82,13 @@ body * {
   height: 15%;
   width: 50%;
   vertical-align: bottom;
-  background-color: #B14F00;
+  /* background-color: #B14F00; */
   box-sizing: border-box;
+  background-color: #A56717
+  /* background-color: #0F0F94; */
+  /* background-color: rgb(0, 128, 228); */
+  /* background-color: #B1443B; */
 
-
-  /* B1443B */
-  /* background-color: rgb(0, 204, 153); */
 }
 
 /* corners */
@@ -102,13 +118,14 @@ body * {
   height: 70vh;
   /* padding: 20px; */
   overflow: scroll;
-  background-color: #2D873D;
+  background-color: #1C1C20;
 }
 
 /* text */
 #big-square *{
   font-size: 14pt;
   line-height: 2em;
+  color: #ABABAB;
 }
 
 /* header */
@@ -130,9 +147,14 @@ body * {
 }
 
 /* backbutton */
-button {
+#back-button {
   display: inline;
   background: none;
   border: none;
+  font-size: 15pt;
+  font-weight: bold;
+  /* make bold and bigger */
 }
+
+
 

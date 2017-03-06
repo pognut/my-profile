@@ -70,15 +70,15 @@ var bigSkills=[
 var bigProjects=[
 <h2 className="big-header">Past Projects</h2>,
 <div>
+  <a href="http://www.beehavenbees.com" target="_blank"><img src={beespic}/></a>
+  <p>This is Bee Haven Bees, my first production website, which provided me a wealth of experience in CSS and basic site design.
+   I did have help from a professional graphic designer, but the underlying code is all mine.
+  </p>
   <a href="https://google-tours.herokuapp.com" target="_blank"><img src={tourpic} /></a>
   <p>This is Google Tours (name subject to change), my final project at General Assembly, the bootcamp that taught me web development.
   Google Tours was inspired by my time leading walking tours in New York City, and lets users create their own custom tours by applying
   written text blurbs to google street view panoramas. The site is built using a Rails backend, and while the live version front end was
   created with vanilla JavaScript, I'm currently refactoring it to use ReactJS.
-  </p>
-  <a href="http://www.beehavenbees.com" target="_blank"><img src={beespic}/></a>
-  <p>This is Bee Haven Bees, my first production website, which provided me a wealth of experience in CSS and basic site design.
-   I did have help from a professional graphic designer, but the underlying is all mine.
   </p>
 </div>]
 

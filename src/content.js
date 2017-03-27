@@ -48,17 +48,16 @@ var bigSkills=[
 <h3>Known Skills</h3>,
 <ul id = "known">
   <li>HTML, CSS, JS (The basics)</li>
-
-  <li>Ruby, Ruby on Rails (My favorite)</li>
+  <li>Ruby, Ruby on Rails</li>
+  <li>NodeJS, ExpressJS, ReactJS (The many children of Javascript)</li>
   <li>Git, Heroku, MySQL/PSQL</li>
   <li>Sales and Customer Services </li>
 
 </ul>,
 <h3>Skills I'm Practicing</h3>,
 <ul id="learning">
-  <li>NodeJS, ExpressJS, ReactJS (The many children of Javascript)</li>
   <li>Spanish and Chinese (proficient)</li>
-  <li>Python</li>
+  <li>Python/Django</li>
 </ul>,
 <h3>What I Want to Learn</h3>,
 <ul id="want-to-learn">

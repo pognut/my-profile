@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import tourpic from './tourpic.png'
 import beespic from './beespic.png'
+import paintpic from './paintpic.png'
 
 // To do:
 // 1) refine content (revise writing, screenshot projects) (last step before usability)
@@ -70,6 +71,11 @@ var bigSkills=[
 var bigProjects=[
 <h2 className="big-header">Past Projects</h2>,
 <div>
+  <a href="http://www.pcpaintingandremodel.com" target="_blank"><img src={paintpic}/></a>
+  <p>This is PC Painting. My first truly freelance project. Working with a designer friend, I learned a great deal
+  about how to design attractive websites, rather than merely functional ones. I also got valuable experience in
+  working with clients.
+  </p>
   <a href="http://www.beehavenbees.com" target="_blank"><img src={beespic}/></a>
   <p>This is Bee Haven Bees, my first production website, which provided me a wealth of experience in CSS and basic site design.
    I did have help from a professional graphic designer, but the underlying code is all mine.

@@ -5,7 +5,7 @@ import BigSquare from './BigSquare.js'
 import SmallSquare from './SmallSquare.js'
 import content from "./content"
 import picture from './unnamed.jpg'
-import resume from './NickMichelResume.docx'
+import resume from './NickMichelResume.pdf'
 
 class App extends Component {
 

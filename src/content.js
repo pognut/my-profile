@@ -94,6 +94,7 @@ var bigContact=[
 <h4>By email: <a href="mailto:nickmichel100@gmail.com">nickmichel100@gmail.com</a></h4>
 <h4>Or phone: 561-596-0368</h4>
 <h4>Or <a href="https://www.linkedin.com/in/nicholas-michel/">LinkedIn</a></h4>
+<h4>Or <a href="https://github.com/pognut">GitHub</a></h4>
 </div>
 ]
 

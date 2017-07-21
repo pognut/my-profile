@@ -39,7 +39,7 @@ var bigAbout=[
   </p>,
   <p>
   I love learning new things and creating new systems, so if I don't have the precise skills you're looking for, give it a month and I will.
-  My outgoing personality and time in the trenches of the sales world make me ideal for client facing roles or project management.
+  My outgoing personality and time in the trenches of the sales world make me ideal for client-facing roles or project management.
   </p>
 ]
 
@@ -83,8 +83,8 @@ var bigProjects=[
   <a href="https://google-tours.herokuapp.com" target="_blank"><img src={tourpic} /></a>
   <p>This is Google Tours (name subject to change), my final project at General Assembly, the bootcamp that taught me web development.
   Google Tours was inspired by my time leading walking tours in New York City, and lets users create their own custom tours by applying
-  written text blurbs to google street view panoramas. The site is built using a Rails backend, and while the live version front end was
-  created with vanilla JavaScript, I'm currently refactoring it to use ReactJS.
+  written text blurbs to google street view panoramas. The site is built using a Rails backend, and while the original version front end was
+  created with vanilla JavaScript, it has been refactored to use ReactJS.
   </p>
 </div>]
 

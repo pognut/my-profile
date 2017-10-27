@@ -60,6 +60,7 @@ var bigSkills=[
   <li>Bootstrap and Materialize</li>
   <li>Python/Django</li>
   <li>Spanish and Chinese (proficient)</li>
+  <li>React Native</li>
 </ul>,
 <h3>What I Want to Learn</h3>,
 <ul id="want-to-learn">
